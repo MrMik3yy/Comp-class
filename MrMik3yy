@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<script type="text/javascript" lang="javascript">
+				var name = "Please grade my lab four in the box below";
+				var age = "4";
+				var blank = " ";
+
+				document.write("<div style='font-size:175%';>");
+				document.write(name);
+				document.write(" ");
+				document.writeln(age + '!');
+				document.write("</div>");
+			</script>
+		</head>
+		<body>
+			<script>
+				document.write("<input type='text' value='" + blank + "' /");
+			</script>	
+		</body>
+	</html>
